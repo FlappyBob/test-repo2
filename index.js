@@ -24,7 +24,7 @@ let persons = [
     number: "39-23-6423122",
   },
 ];
-
+app.use(express.static("./dist"))
 app.use(express.json());
 
 // configure morgan
